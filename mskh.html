@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mskh.css">
+    <title>Calculator+</title>
+</head>
+<body>  
+    <div class="numbers">
+        <form class="form">
+            <input type="text" id="numVal">
+        </form>
+        <div class="lig" onclick="ac()">AC</div>
+        <div class="lig">+/-</div>
+        <div class="lig">%</div>
+        <div class="org" onclick="toDoAction('/')">/</div>
+        <div onclick="addNum(7)">7</div>
+        <div onclick="addNum(8)">8</div>
+        <div  onclick="addNum(9)">9</div>
+        <div class="org"  onclick="toDoAction('*')">X</div>
+        <div onclick="addNum(4)">4</div>
+        <div onclick="addNum(5)">5</div>
+        <div onclick="addNum(6)">6</div>
+        <div class="org" onclick="toDoAction('-')">-</div>
+        <div onclick="addNum(1)">1</div>
+        <div  onclick="addNum(2)">2</div>
+        <div  onclick="addNum(3)">3</div>
+        <div class="org"  onclick="toDoAction('+')">+</div>
+        <div class="zero"  onclick="addNum(0)">0</div>
+        <div onclick="addNum('.')">.</div>
+        <div class="org" onclick="isEqual()">=</div>
+    </div>
+    <script src="mskh.js"></script>
+</body>
+</html>
